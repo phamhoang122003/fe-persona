@@ -74,7 +74,7 @@ onMounted(() => {
         <div>
           <RouterLink class="btn btn-secondary me-2" :to="`/notification`" v-if="userRole === 'Admin'">Notifications</RouterLink>
           <RouterLink class="btn btn-secondary me-2" :to="`/list-user`" v-if="userRole === 'Admin'">Users</RouterLink>
-          <RouterLink class="btn btn-secondary me-2" :to="`/detail-user`" v-if="userRole === 'Admin'">Your infomation</RouterLink>
+          <RouterLink class="btn btn-secondary me-2" :to="`/detail-user`">Your infomation</RouterLink>
           <button class="btn btn-danger" @click="handleLogout">Log Out</button>
         </div>
       </div>

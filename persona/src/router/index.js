@@ -10,7 +10,7 @@ import RegisterView from '@/views/RegisterView.vue';
 import ForGotPassWordView from '@/views/ForGotPassWordView.vue';
 import NewPasswordView from '@/views/NewPasswordView.vue';
 import ListUserView from '@/views/ListUserView.vue';
-import UpdateInfomation from '@/views/updateInfomation.vue';
+import UpdateInfomation from '@/views/UpdateInfomation.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
